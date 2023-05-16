@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394761661182",
+    "project_id": "organizingcodes-c08de",
+    "storage_bucket": "organizingcodes-c08de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394761661182:android:bcc325eab5cccdf2afd3af",
+        "android_client_info": {
+          "package_name": "com.inkrodriguez.organizingcodes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394761661182-v94un4b67oa2cpcg7lgb1m10j4tpt43e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ6UJoE1pOVeI3rBpF7oC9Z5Ms9iEB3Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394761661182-v94un4b67oa2cpcg7lgb1m10j4tpt43e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
