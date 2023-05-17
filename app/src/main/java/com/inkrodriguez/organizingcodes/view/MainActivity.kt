@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.inkrodriguez.organizingcodes.R
 import com.inkrodriguez.organizingcodes.model.User
+import com.inkrodriguez.organizingcodes.test.ContextWrapper
 import com.inkrodriguez.organizingcodes.viewModel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.DelicateCoroutinesApi
@@ -24,6 +25,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
+
+        val tvLogin = tvLogin
+        val contextWrapper = ContextWrapper(this)
+
+        tvLogin.text = contextWrapper.getLogin()
+
 
         btnLogin.setOnClickListener {
             val username = etUsernameLogin.text.toString()
